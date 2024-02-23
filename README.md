@@ -95,15 +95,15 @@ Using your knowledge of TensorFlow, you’ll design a neural network, or deep le
 Using your knowledge of TensorFlow, optimize your model to achieve a target predictive accuracy higher than 75%.
 
 - Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
- - Dropping more or fewer columns.
- - Creating more bins for rare occurrences in columns.
- - Increasing or decreasing the number of values for each bin.
- - Add more neurons to a hidden layer.
- - Add more hidden layers.
- - Use different activation functions for the hidden layers.
- - Add or reduce the number of epochs to the training regimen.
+   - Dropping more or fewer columns.
+   - Creating more bins for rare occurrences in columns.
+   - Increasing or decreasing the number of values for each bin.
+   - Add more neurons to a hidden layer.
+   - Add more hidden layers.
+   - Use different activation functions for the hidden layers.
+   - Add or reduce the number of epochs to the training regimen.
 
-# Note: If you make at least three attempts at optimizing your model, you will not lose points if your model does not achieve target performance.
+- Note: If you make at least three attempts at optimizing your model, you will not lose points if your model does not achieve target performance.
 
 1. Create a new Google Colab file and name it AlphabetSoupCharity_Optimization.ipynb.
 
