@@ -8,7 +8,6 @@ Create a tool that can help the foundation select the applicants for funding wit
 - [Prerequisites](#Prerequisites)
 - [Coding Instruction](#Coding-Instruction)
 - [Report](#Report)
-- [Result Screenshots](#Result-Screenshots)
 - [References](#references)
   
 ## Getting Started
@@ -147,19 +146,26 @@ The purpose of this analysis is to summarize the overall results of the original
 - Data Preprocessing:
   
   - What variable(s) are the target(s) for your model?
+
     The target variable for my model is “IS_SUCCESSFUL” which provided insight into the success or failure of previous projects.
     
   - What variable(s) are the features for your model?
-    The feature variables include APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT.
+
+    The feature variables include APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT,
+    SPECIAL_CONSIDERATIONS, and ASK_AMT.
     
   - What variable(s) should be removed from the input data because they are neither targets nor features?
-    EIN and NAME which were dropped because they are identifiers and do not provide predictive information and that’s why it is neither targets nor features.
+
+    EIN and NAME which were dropped because they are identifiers and do not provide predictive information and that’s why it is neither
+    targets nor features.
 
 - Compiling, Training, and Evaluating the Model:
   
   - How many neurons, layers, and activation functions did you select for your neural network model, and why?
-    For my  neural network model , I have 100 neurons in the first hidden layer and 40 neurons in the second hidden and 1 neuron in the output layer. The first and second hidden
-    layers use the “Relu” activation function, while the output layer uses the “sigmoid” activation function.
+
+    For my  neural network model , I have 100 neurons in the first hidden layer and 40 neurons in the second hidden and 1 neuron in the
+    output layer. The first and second hidden layers use the “Relu” activation function, while the output layer uses the “sigmoid”
+    activation function.
 
 Original:
 
@@ -170,10 +176,13 @@ Mine:
 ![Mine](Screenshots/Mine.png)
 
   - Were you able to achieve the target model performance?
+
     Yes, with a result of 76% accuracy.
+    
   - What steps did you take in your attempts to increase model performance?
-    Including the 'NAME' column among the feature variables helped enhance the accuracy by providing additional crucial data points.  Increasing the number of hidden nodes for each
-    layer resulted in an overall improvement in the model's accuracy.
+
+     Including the 'NAME' column among the feature variables helped enhance the accuracy by providing additional crucial data points.
+     Increasing the number of hidden nodes for each layer resulted in an overall improvement in the model's accuracy.
 
 
 
